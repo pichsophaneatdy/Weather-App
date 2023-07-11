@@ -12,7 +12,7 @@ A simple weather application created during a 6-hour hackathon using HTML, SASS,
 </ul>
 
 ## Demo
-You can view a live demo of the Weather App at: 
+You can view a live demo of the Weather App <a href="https://pichsophaneatdy.github.io/Weather-App/">here</a>.
 
 ## Technologies Used
 <ul>
