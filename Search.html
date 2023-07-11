@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="Search.css"/>
+    
+</head>
+<body>
+    <div class="search">
+        
+        <a href="index.html">
+            <img src="sun.png">
+            <br>Home</a>
+        <h2>Let's explore the weather in different cities</h2>
+        <input type="text" placeholder="Enter the name of the city here" id="city_input"/>
+        <button id="search_btn">Search</button>
+        <div class="cities">
+            
+            <div class="cities_wrapper">
+
+            </div>
+        </div>
+    </div>
+    <div class="weather__data display-none">
+        <!-- <a class="search_link" href="Search.js">Search for a city</a> -->
+        <a href="Search.html" class="search-icon" >
+            <img src="search.png" alt="search" class="search__icon"> 
+            <h2 class="search_h2">Search for your favorite city</h2>
+             </a>
+        <h1 class="header">The weather in <em class="location">Vancouver</em> right now!</h1>
+        <div class="topContainers">
+            <div class="icon">
+                <img class="icon__image floating" src="rainy-day.png" alt="wind icon">
+            </div>
+            <!-- <div class="temp">
+            <h2 class="temp__temp">50</h2>
+            <h3 class="deg">deg</h3>
+            <h4 class="temp__minMax"></h4>
+        </div> -->
+            <!-- <div class="minMax"> -->
+            <!-- <div class="wind">
+                <div class="wind__wind">
+                    <h4 class="wind__head">wind</h4>
+                    <p class="wind-wind"><em>Very Windy</em></p>
+                </div>
+                <div class="sunrise">
+                    <h4 class="sun__head">Sunrise</h4>
+                    <p class="sun__time"><em>4.30am</em></p>
+                </div>
+                <div class="sunset">
+                    <h4 class="sunset">Sunset</h4>
+                    <p class="sunset__time"><em>9pm</em></p>
+                </div>
+            </div> -->
+            <!-- </div> -->
+        </div>
+        <div class="days">
+            <!-- 
+            <div class="days__cont">
+                <p class="day"></p>
+                <p class="day__temp"></p>
+                <p class="day__wind"></p>
+            </div>
+            <div class="days__cont">
+                <p class="day"></p>
+                <p class="day__temp"></p>
+                <p class="day__wind"></p>
+            </div>
+            <div class="days__cont">
+                <p class="day"></p>
+                <p class="day__temp"></p>
+                <p class="day__wind"></p>
+            </div>
+            <div class="days__cont">    
+                <p class="day"></p>
+                <p class="day__temp"></p>
+                <p class="day__wind"</p>
+            </div>
+            <div class="days__cont">    
+                <p class="day"></p>
+                <p class="day__temp"></p>
+                <p class="day__wind"></p>
+            </div>   -->
+        </div>
+        <div class="button">
+            <img src="wind.png" class="random">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="Search.js"></script>
+</body>
+</html>
